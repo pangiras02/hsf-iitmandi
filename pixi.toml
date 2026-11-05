@@ -1,0 +1,12 @@
+[workspace]
+authors = ["Poojan Angiras <di2301@students.iitmandi.ac.in>"]
+channels = ['conda-forge']
+name = "hsf-iitmandi"
+platforms = ['linux-64']
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+scipy = ">=1.18.1,<2"
+matplotlib = ">=3.11.2,<4"
